@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
+}
+
+/* <---------------- ROOT CSS ----------------> */
+
+:root {
+  --color-white: #ffffff;
+  --light-gray: #d6e2f0;
+  --grayish: #7b879d;
+  --dark-blue: #1f3251;
+}
+
+/* <---------------- ========= ----------------> */
+
+body {
+  background-color: var(--light-gray);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: 90vw;
+  max-width: 320px;
+  margin: auto;
+  padding: 1rem;
+  background-color: var(--color-white);
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+img {
+  width: 100%;
+  border-radius: 1rem;
+  width: 100%;
+}
+
+.card_text {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  color: var(--dark-blue);
+  font-weight: 700;
+  font-size: 20px;
+}
+
+p {
+  font-weight: 400;
+  color: var(--grayish);
+  font-size: 15px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  font-size: 11px;
+  color: #3e52a3;
+}
+
+.attribution a:hover {
+  color: #192b72;
+}
